@@ -5,8 +5,8 @@ class Person
   def name
     @name
   end
-  def job=
-
+  def job=(Singer)
+    @job = Singer
   end
   def job
     @job
